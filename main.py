@@ -3,7 +3,7 @@ from pdfquery import PDFQuery
 from bs4 import BeautifulSoup
 import pandas as pd
 
-pdf = PDFQuery("Nubank_2023-09-11.pdf")
+pdf = PDFQuery("Nubank_2023-08-11.pdf")
 pdf.load()
 
 #convert the pdf to XML
